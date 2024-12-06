@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#a8e6cf;
+}
+
+.meme-container {
+    text-align: center;
+}
+
+#meme-image {
+    width: 50vh;
+    height: 50vh;
+}
+button{
+    background-color: #8594e4;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size:1rem;
+    font-weight: 800;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: #606470;
+    color: white;
+}
